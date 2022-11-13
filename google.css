@@ -1,0 +1,125 @@
+*{
+    font-family: Arial, sans-serif;
+}
+.subchild{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 1rem;
+}
+.gb_Ve{
+    height: 24px;
+    width: 24px;
+}
+.gb_A {
+    padding: 8px;
+}
+
+.foot{
+    background-color: yellow;
+}
+.icons_google{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-decoration: none;
+    position: absolute;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-right: 3.5rem;
+}
+.iconss{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+.iconss:hover{
+    text-decoration: underline;
+}
+.icons:hover{
+    background-color: #d1d3d6f4;
+    backdrop-filter: blur;
+    border-radius: 4rem;
+   opacity: 1;
+   
+}
+
+.gb_A{
+    color: #5f6368;
+    opacity: 1;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+}
+.gimg{
+    background-image: url(./images/google_logo.svg);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    forced-color-adjust: none;
+    height: 92px;
+    width: 272px;
+}
+.searchicon{
+    background-image: url(./images/search.svg);
+    height: 24px;
+    width: 24px;
+    display: flex;
+    margin-left: 0rem;
+margin-right: 32rem;
+    align-items: flex-start;
+    position: absolute;
+}
+#voiceicon{
+    background-image: url(./images/Google_mic.svg);
+    height: 24px;
+    width: 17px;
+    position: absolute;
+    cursor: pointer;
+    margin-left: 33rem;
+}
+.inputwrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:3.5rem;
+    position: relative;
+    border-radius: 10px;
+    background-color: #5f6368;
+;
+    
+}
+input {
+    border: none;
+    height: 20vh;
+    width: 20vh;
+}
+#input{
+    border-radius: 15px;
+    height: 2rem;
+    width: 35rem;
+    padding-left: 3rem;
+    padding-right: 2.5rem;
+    font-size: 1.2rem;
+}
+input::placeholder{
+padding-left: 3rem;
+font-size: 1.2rem;
+}
+.main{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
